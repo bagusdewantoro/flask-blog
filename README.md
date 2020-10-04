@@ -34,7 +34,7 @@ How I deploy this repo in Linode ubuntu server 20.04 LTS:
 - sudo nano /etc/apache2/sites-available/webApp.conf
 - code:
 <VirtualHost *:80>
-		ServerName "ip adress"
+		ServerName "ip address"
 		ServerAdmin email@mywebsite.com
 		WSGIScriptAlias / /var/www/webApp/webApp.wsgi
 		<Directory /var/www/webApp/webApp/>
