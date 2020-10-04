@@ -68,3 +68,9 @@ application.secret_key = 'hard_to_guess'
 
 11. Restart apache
 - sudo service apache2 restart 
+
+
+Credits:
+- techwithtim youtube channel
+- digitalocean about configuring wsgi
+- linode documentation about configuring apache
