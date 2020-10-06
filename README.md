@@ -16,6 +16,7 @@ How I deploy this repo in Linode ubuntu server 20.04 LTS:
 
 5. Install and enable mod_wsgi
 - sudo apt install apache2-dev libapache2-mod-wsgi-py3
+- sudo apt-get install python3-pip
 - sudo pip3 install mod_wsgi
 
 6. Creating flask app
@@ -24,7 +25,6 @@ How I deploy this repo in Linode ubuntu server 20.04 LTS:
 - cd webApp
 
 7. Install flask
-- sudo apt-get install python3-pip
 - sudo pip3 install Flask 
 - sudo pip3 install flask_sqlalchemy
 
